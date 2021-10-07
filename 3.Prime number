@@ -1,0 +1,26 @@
+Check to see if it is a prime number - can be achieved in O(Log n) times
+
+
+Prime number - 97 ===> Square root of n to see if there are any divisors for the given number 
+
+Example : 7 
+
+n/2 = 7/2 = < 2.5 
+
+for each values of n from 1 to square root of n --> if it doesnt exist then it is a prime number
+
+
+Example : 97 
+
+
+97/2 = 49 
+
+49/2 = 24 
+
+24 /2 = 12 
+
+
+12/2 = 6 --> Between 6 t0 12 --> divide all the factors to see if it exists..
+
+
+
