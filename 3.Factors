@@ -1,0 +1,15 @@
+Factors of a given number. 
+
+           10
+       1  2   5 10
+       
+       which is nothing but , it always comes in pairs 1,2 which pairs with 5 , 10 ========> 
+       *** even number of factors 
+       
+       In case of perfect squares then 
+       
+            16
+                 
+       1  2 4 8 16  => 5 factors .Odd - only for perfect squares
+       
+    Based on this condition, to find a given number is prime - all we need is the first half of the factors to see if exists
