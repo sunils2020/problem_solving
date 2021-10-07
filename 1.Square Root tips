@@ -1,0 +1,14 @@
+1. Square root of x number can be calculated using log n steps .
+
+Example : Square root of 100 
+
+Take n/2 ==> 100/2 --> Exclude numbers > 50 
+Now n = 50 => 50 /2 
+Now n = 25 => 25/ 2
+
+12 / 2 = 6
+
+Ignore below 6 , move from 7 < 12 , we can find the square root of 100
+
+
+
