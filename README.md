@@ -16,3 +16,18 @@ Substrings
 Important Problems
 ==================
 1.Largest 
+
+
+Kadanes Algorithm
+==================
+max subarray - Find the max contribution 
+Example:   
+            -1    1   1    -1   1   1   -1
+            
+ Assuming = 0 is the largest sum 
+ 
+                                        -1    1     1   -1    1     1    -1   -1   -1   -1          1                               1
+          Sum till now            = 0    0    1     2    1    2     3     2    1    0   -1      move start index to this pos     
+          Largest ans till now    = 0    0    1     2    2    2     3     3    3    3    3 
+            
+            At index=3 (i.e) -1 ,since sum till now = 1 , it will add to the existing subarray - hence include
