@@ -23,7 +23,6 @@ Kadanes Algorithm
 max subarray - Find the max contribution 
 Example:   
             -1    1   1    -1   1   1   -1
-            
  Assuming = 0 is the largest sum 
  
                                         -1    1     1   -1    1     1    -1   -1   -1   -1          1                               1
@@ -31,3 +30,34 @@ Example:
           Largest ans till now    = 0    0    1     2    2    2     3     3    3    3    3 
             
             At index=3 (i.e) -1 ,since sum till now = 1 , it will add to the existing subarray - hence include
+
+
+GCD (or) HCF
+====================
+GCD/HCF - Find the highest common divisor 
+
+6,8         6  ->       1,2,3,6
+            8  ->       1,2,4,8
+    
+    Highest common factor here is 2
+    Note : Highest common factor should be one of the factor minimum(6,8)
+    
+       
+LCM  - Common multiples between 2 numbers       
+====
+6,8    6  ->  6, 12, 18, 24,      = 24 is the LCM     
+       8  ->  8, 16, 24      
+       
+For given 2 numbers , maximum LCM could be 6 * 8
+
+GCD and LCM theorum =  HCF(a,b) * LCM(a,b) = a * b
+
+
+
+
+
+
+
+            
+
+
