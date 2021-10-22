@@ -29,3 +29,11 @@ Technique 2: (j+currentRotation) % size of the array
     * (2 + 2 ) % 5 = 4  =>  5
     * (3 + 2 ) % 5 = 0  =>  1
     * (4 + 2 ) % 5 = 1  =>  2
+
+
+Number of SubArrays/Subsequence possible
+============================
+Sub Arrays   =  n(n+1)/2
+Sub Sequence =  2^n
+
+
