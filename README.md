@@ -42,6 +42,15 @@ GCD/HCF - Find the highest common divisor
     Highest common factor here is 2
     Note : Highest common factor should be one of the factor minimum(6,8)
     
+   GCD Properties 
+   * Not applicable for negative numbers 
+   * GCD(a,b) = GCD(b,a)
+   * GCD(a,a) = a
+   * GCD(a,0) = a
+   * GCD(a,1) = 1
+   * GCD(a,b-a) = GCD(a,b)
+   * GCD(a,b-a) = GCD(a,b%a) ==> XXX ----------- GCD of 2 numbers can be solved in log complexity -------------
+       
        
 LCM  - Common multiples between 2 numbers       
 ====
@@ -51,6 +60,7 @@ LCM  - Common multiples between 2 numbers
 For given 2 numbers , maximum LCM could be 6 * 8
 
 GCD and LCM theorum =  HCF(a,b) * LCM(a,b) = a * b
+
 
 
 
