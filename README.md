@@ -61,7 +61,11 @@ For given 2 numbers , maximum LCM could be 6 * 8
 
 GCD and LCM theorum =  HCF(a,b) * LCM(a,b) = a * b
 
-
+Composite Number       
+===============
+1 - is neither prime nor composite
+2,3 - Prime number
+4 - Composite because it has more than 2 factors (prime)
 
 
 
