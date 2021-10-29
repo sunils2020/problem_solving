@@ -68,7 +68,15 @@ Composite Number
 4 - Composite because it has more than 2 factors (prime)
 
 
+Square root of a Number   => using binary search which will take O(Log n) time complexity
+========================
 
+Example:            Find the square root of 25
+
+1. Take mid point of 1 and 25 ==>  1 - 12    -    13 - 25 ( 12 * 13 = 169 , Hence discard this list)
+2. Mid point of 1 - 12 -->          1 - 6 , 7 - 12  ( 7 *7 = 49 - hence discard)
+3. Mid point of 1 - 6  -->    3     == 3 * 3 = 9 , less than 25 - hence discard
+4. Mid point of 4 - 6 --> 5         5 * 5 = 25 -- Result found .. This takes binary tree approach 
 
 
 
